@@ -1,0 +1,6 @@
+---
+layout: page
+title: Illustrations
+permalink: /illustrantions/
+weight: 2
+---
