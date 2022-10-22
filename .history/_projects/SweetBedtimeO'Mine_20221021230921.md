@@ -82,10 +82,7 @@ It sure looks dumb, but watch out for its bomb!
 
 Its sound wave is destructive, so beat it before it gets you.
 
-<h3 class="text-center"> 
-Special Thanks
-</h3>
-<br>
+## Special Thanks
 
 *Audios below are from [maoudamashii](https://maou.audio/)*
 - 8bit25

@@ -70,7 +70,7 @@ They're timid and run away from you. You need to attack them in a specific order
 
 Yep, It's the thing that your annoying neighbor uses every time you tryna sleep. It rushes everywhere and you need to dodge them quickly.
 
-#### Pendulum
+### Pendulum
 
 ![](https://s2.loli.net/2022/04/13/DukfMGlImTBjHcn.png)
 
@@ -82,10 +82,7 @@ It sure looks dumb, but watch out for its bomb!
 
 Its sound wave is destructive, so beat it before it gets you.
 
-<h3 class="text-center"> 
-Special Thanks
-</h3>
-<br>
+## Special Thanks
 
 *Audios below are from [maoudamashii](https://maou.audio/)*
 - 8bit25
