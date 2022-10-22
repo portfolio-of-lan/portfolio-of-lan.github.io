@@ -45,9 +45,9 @@ How to Play
 <br>
 
 
-Press <font color=Crimson><b><i>WASD</i></font color=Crimson><b> to move, and press <font color=Crimson><b><i>J</i></font color=Crimson><b> or <font color=Crimson><b><i>K</i></font color=Crimson><b> to attack. 
+Press <font color=Crimson><b><i>WASD<i></font color=Crimson><b> to move, and press <font color=Crimson><b><i>J<i></font color=Crimson><b> or <font color=Crimson><b><i>K<i></font color=Crimson><b> to attack. 
 
-If you need to restart, just press <font color=Crimson><b><i>R</i></font color=Crimson><b>. Press <font color=Crimson><b><i>Q</i></font color=Crimson><b> to quit the game.
+If you need to restart, just press <font color=Crimson><b><i>R</font color=Crimson><b><i>. Press <font color=Crimson><b><i>Q</font color=Crimson><b><i> to quit the game.
 
 <h3 class="text-center"> 
 Monsters
