@@ -1,11 +1,35 @@
 [
   
     {
+      "title"    : "RootUser Project",
+      "category" : "",
+      "tags"     : "Game",
+      "url"      : "https://github.com/PuppyGummy/RootUser",
+      "date"     : "2023-04-02 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "SweetBedtimeO&#39;Mine Project",
+      "category" : "",
+      "tags"     : "Game",
+      "url"      : "https://github.com/gamemagics/Sweet-Bedtime-O-Mine",
+      "date"     : "2022-10-21 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "CampusDiningReviews",
+      "category" : "",
+      "tags"     : "WeChat Applet",
+      "url"      : "https://github.com/PuppyGummy/CampusDiningReviews-WeChat",
+      "date"     : "2022-01-25 00:00:00 -0800"
+    } ,
+  
+    {
       "title"    : "BreadAdventure Project",
       "category" : "",
       "tags"     : "Game",
       "url"      : "https://github.com/PuppyGummy/BreadAdventureProject",
-      "date"     : "2022-01-24 00:00:00 +0800"
+      "date"     : "2022-01-24 00:00:00 -0800"
     } ,
   
     {
@@ -13,7 +37,7 @@
       "category" : "",
       "tags"     : "Game",
       "url"      : "https://github.com/PuppyGummy/UnstableConcoctionProject",
-      "date"     : "2022-01-16 00:00:00 +0800"
+      "date"     : "2022-01-16 00:00:00 -0800"
     } ,
   
     {
@@ -21,7 +45,7 @@
       "category" : "",
       "tags"     : "Game",
       "url"      : "https://github.com/PuppyGummy/PuppyDaysProject",
-      "date"     : "2022-01-16 00:00:00 +0800"
+      "date"     : "2022-01-16 00:00:00 -0800"
     } 
   
 ]
