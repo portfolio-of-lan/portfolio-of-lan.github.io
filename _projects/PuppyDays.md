@@ -1,7 +1,7 @@
 ---
 name: PuppyDays
 tools: [Unity, C#, Spine]
-image: 
+image: https://s2.loli.net/2024/02/20/CaZ6xcJvs1OY2MI.png
 description: An adventure game about how a bunch of puppies finds their disappeared owners
 ---
 
