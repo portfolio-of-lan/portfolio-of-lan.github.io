@@ -1,7 +1,7 @@
 ---
 name: RootUser
 tools: [Unity, C#, Aseprite]
-image: https://s2.loli.net/2023/04/03/okjDGfC7t2yL9Hc.png
+image: https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/RootUser/RootOS.png?token=GHSAT0AAAAAACR7QK2PEBVWDF34EQLNXPGIZTSQLKQ
 description: A puzzle game made for Global Game Jam
 ---
 
@@ -12,13 +12,27 @@ You're trapped in a computer, what would you do? ...
 </p>
 
 {% capture carousel_images %}
-https://s2.loli.net/2023/04/03/14WDaHTFy8KojI7.png
-https://s2.loli.net/2023/04/03/IwMeL9tQAVbxnCa.png
-https://s2.loli.net/2023/04/03/sicK2r3MYCLHWJZ.png
+https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/RootUser/WX20230224-230446%402x.png?token=GHSAT0AAAAAACR7QK2POKEHNQ2ZJYUPC2FAZTSQGDQ
+https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/RootUser/WX20230225-152733%402x.png?token=GHSAT0AAAAAACR7QK2OMRYIRAIYYKLP6X4UZTSQGLQ
+https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/RootUser/WX20230225-152843%402x.png?token=GHSAT0AAAAAACR7QK2PLLMR4NYO3GIEUR64ZTSQGUQ
 {% endcapture %}
 {% include elements/carousel.html %}
 
 {% include elements/button.html link="https://chocolate-kami.itch.io/root-user" text="Play Game" block=true %}
+
+<p class="text-center" style="color:DarkGrey">
+---
+</p>
+
+<h3 class="text-center">
+About
+</h3>
+
+<br>
+This was my third game jam project and my second puzzle game. In this project, there are 2 artists and 2 programmers. This game maily depends on dialogues to proceed, and I was in charge of this part. I also designed part of the story and puzzles.
+
+Unlike the previous projects, I had different teammates, and I was the leader of this project since I was the only experienced one. This enabled me to practice my leadership, although it was only a small team. We applied agile methodologies to iterate the project at a fast pace. I think this helped me to adapt to the environment at companies.
+<br>
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -42,20 +56,6 @@ How to Play
  
 + Press <font color=Crimson><b><i>Space</i></b></font> or <font color=Crimson><b><i>Click</i></b></font> to continue or skip the dialogue!
 + If you get stuck, don't forget to turn to the console, there may be some hints for you!
-
-<p class="text-center" style="color:DarkGrey">
----
-</p>
-
-<h3 class="text-center">
-About
-</h3>
-
-<br>
-This was my third game jam project and my second puzzle game. In this project, there are 2 artists and 2 programmers. This game maily depends on dialogues to proceed, and I was in charge of this part. I also designed part of the story and puzzles.
-
-Unlike the previous projects, I had different teammates, and I was the leader of this project since I was the only experienced one. This enabled me to practice my leadership, although it was only a small team. We applied agile methodologies to iterate the project at a fast pace. I think this helped me to adapt to the environment at companies.
-<br>
 
 <p class="text-center" style="color:DarkGrey">
 ---

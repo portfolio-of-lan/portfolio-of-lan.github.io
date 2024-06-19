@@ -3,9 +3,9 @@
   color: danger
 
 - name: Java
-  percentage: 60
+  percentage: 50
   color:
 
-- name: Go
-  percentage: 30
+- name: Python
+  percentage: 50
   color: secondary

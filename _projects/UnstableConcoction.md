@@ -1,7 +1,7 @@
 ---
 name: UnstableConcoction
 tools: [Unity, C#, Aseprite]
-image: https://s2.loli.net/2022/01/10/Ry7dtqnQL9JNiWb.png
+image: https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/UnstableConcoction/title.png?token=GHSAT0AAAAAACR7QK2PBUS4EGL7FG66YOYEZTSO5DA
 description: A puzzle game made in a gamejam
 ---
 
@@ -12,15 +12,30 @@ a simple puzzle game
 </p>
 
 {% capture carousel_images %}
-https://static.jam.vg/raw/a34/f3/z/458cd.png
-https://static.jam.vg/raw/a34/f3/z/459da.png
-https://static.jam.vg/raw/a34/f3/z/459db.png
-https://s2.loli.net/2022/01/11/DX2r3yikEs9a5Cw.png
-https://static.jam.vg/raw/a34/f3/z/459e2.png
+https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/UnstableConcoction/intro.png?token=GHSAT0AAAAAACR7QK2P66DGXOJKILNZZZ7GZTSO5RA
+https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/UnstableConcoction/intro2.png?token=GHSAT0AAAAAACR7QK2PGNFWOYX43GYPLM66ZTSO5YQ
+https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/UnstableConcoction/level2.png?token=GHSAT0AAAAAACR7QK2PBNTQULO66D3MND6GZTSO6EA
+https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/UnstableConcoction/level3.png?token=GHSAT0AAAAAACR7QK2PEBOUGLI4TFHA4WKAZTSO6LQ
 {% endcapture %}
 {% include elements/carousel.html %}
 
 {% include elements/button.html link="https://chocolate-kami.itch.io/unstableconcoction" text="Play Game" block=true %}
+
+<p class="text-center" style="color:DarkGrey">
+---
+</p>
+
+<h3 class="text-center">
+About
+</h3>
+
+<br>
+It’s a puzzle game made within 72 hours by me and another classmate of mine, during Ludum Dare 49, a game jam. I participated in designing the game background and mechanism and illustrated all the image resources in the form of pixel art, such as the title, the animation of the character, the look of different elements and ground blocks, the ending, etc.
+
+Also, I made all the scenes with Unity engine, including the title scene, the introduction scene, the level selection scene, and the ending scene. I was in charge of how the user interface should interact with players and what effect it should have. In addition, I implemented the dialogue with an open-source plug-in called Yarn Spinner. Finally, I designed several puzzles on my own as well. ( Level 2 and level 3 were designed by me. )
+
+It was my first game jam, so the biggest challenge was time limitation. I had to make a lot of compromises, such as the number of levels, the quality of the puzzles, etc. However, it was also my first complete game, and I learned the whole process of making a game, including testing and publishing, which was really fun.
+<br>
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -92,7 +107,7 @@ Don't be afraid of trying!
 
 Good luck and thanks for your playing!
 
-![](https://s2.loli.net/2022/01/15/QjJqXA9KWwvOYUb.png)
+![](https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/UnstableConcoction/character-final.png?token=ALASXQRQTWNNHZ6UIIDZY7LGOJWA6)
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -117,22 +132,6 @@ The reaction table is as follows:
 + Diffusal + Force = Blight
 
 If you get stuck in the game, you could check the table above.
-
-<p class="text-center" style="color:DarkGrey">
----
-</p>
-
-<h3 class="text-center">
-About
-</h3>
-
-<br>
-It’s a puzzle game made within 72 hours by me and another classmate of mine, during Ludum Dare 49, a game jam. I participated in designing the game background and mechanism and illustrated all the image resources in the form of pixel art, such as the title, the animation of the character, the look of different elements and ground blocks, the ending, etc.
-
-Also, I made all the scenes with Unity engine, including the title scene, the introduction scene, the level selection scene, and the ending scene. I was in charge of how the user interface should interact with players and what effect it should have. In addition, I implemented the dialogue with an open-source plug-in called Yarn Spinner. Finally, I designed several puzzles on my own as well. ( Level 2 and level 3 were designed by me. )
-
-It was my first game jam, so the biggest challenge was time limitation. I had to make a lot of compromises, such as the number of levels, the quality of the puzzles, etc. However, it was also my first complete game, and I learned the whole process of making a game, including testing and publishing, which was really fun.
-<br>
 
 <p class="text-center" style="color:DarkGrey">
 ---
