@@ -1,7 +1,7 @@
 ---
 name: PuppyDays
 tools: [Unity, C#, Spine]
-image: https://s2.loli.net/2024/02/20/CaZ6xcJvs1OY2MI.png
+image: https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20240330-011327@2x.8ad49qblvx.webp
 description: An adventure game about how a bunch of puppies finds their disappeared owners
 ---
 
@@ -22,6 +22,21 @@ https://s2.loli.net/2022/01/15/FKitj2vC96Yckhm.png
 {% include elements/carousel.html %}
 
 {% include elements/button.html link="https://github.com/PuppyGummy/PuppyDaysProject/releases/tag/Demo" text="Play Demo" block=true %}
+
+<p class="text-center" style="color:DarkGrey">
+---
+</p>
+
+<h3 class="text-center">
+About
+</h3>
+<br>
+The project is an adventure game of my own. It tells a story about how a bunch of puppies finds their disappeared owner. The game is focused on the relationship between humans and dogs, and I hope it will be able to raise awareness of the need to care for animals. 
+
+The project is made all by myself, including the design of the whole story and characters, the illustration, the coding, etc.
+
+However, this game is still in development. The biggest challenge is how to make a dialogue system, and I used a free plugin, YarnSpinner, to help me. This plugin was also used in <i>Night in the Woods</i>, which was also the reference of this project. I learned to used ANTLR to parse the scripts into readable language for the program.
+<br>
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -111,7 +126,7 @@ Characters
         whatever fluffy says
     </div>
     <div id="qr" style="display:inline-block; align: center;vertical-align: middle;padding:30px">
-        <img width="271.5" src="https://s2.loli.net/2022/01/15/21cfrXT94zadjvC.png">
+        <img width="271.5" src="https://github.com/PuppyGummy/picx-images-hosting/raw/master/博美姐妹立绘-3.13lmwed7we.webp">
     </div>
 </div>
 
@@ -162,21 +177,6 @@ to be supplemented...
 
 <br>
 <img src="https://s2.loli.net/2022/01/15/dLTSWlXoQvfryYP.gif" width="150"/>
-
-<p class="text-center" style="color:DarkGrey">
----
-</p>
-
-<h3 class="text-center">
-About
-</h3>
-<br>
-The project is an adventure game of my own. It tells a story about how a bunch of puppies finds their disappeared owner. The game is focused on the relationship between humans and dogs, and I hope it will be able to raise awareness of the need to care for animals. 
-
-The project is made all by myself, including the design of the whole story and characters, the illustration, the coding, etc.
-
-However, this game is still in development. The biggest challenge is how to make a dialogue system, and I used a free plugin, YarnSpinner, to help me. This plugin was also used in <i>Night in the Woods</i>, which was also the reference of this project. I learned to used ANTLR to parse the scripts into readable language for the program.
-<br>
 
 <p class="text-center" style="color:DarkGrey">
 ---

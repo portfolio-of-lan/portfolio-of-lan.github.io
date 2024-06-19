@@ -1,7 +1,7 @@
 ---
 name: SweetBedtimeO'Mine
 tools: [Unity, C#, Aseprite]
-image: https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/20220413-184732.jpg?token=GHSAT0AAAAAACR7QK2OGYKIBCFATMA5W4XUZTSQZDA
+image: https://github.com/PuppyGummy/picx-images-hosting/raw/master/20220413-184732.3uup4gm1ha.webp
 description: A roguelike game for LD50
 ---
 
@@ -11,12 +11,12 @@ description: A roguelike game for LD50
 this game is made for Ludum Dare 50</p>
 
 {% capture carousel_images %}
-https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/screenshot-20220413-193653.png?token=GHSAT0AAAAAACR7QK2O3AMMQINWFWIKY7XSZTSPJBQ
-https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/screenshot-20220413-193704.png?token=GHSAT0AAAAAACR7QK2PMWIKJO5FWPHKEHFYZTSPJIQ
-https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/screenshot-20220413-193715.png?token=GHSAT0AAAAAACR7QK2OHZUEFAEWG3JCCSNSZTSPJPA
-https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/screenshot-20220413-193846.png?token=GHSAT0AAAAAACR7QK2PNWTJZQ7DMODZIK74ZTSPJYA
-https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/screenshot-20220413-193926.png?token=GHSAT0AAAAAACR7QK2PG6QYYXZDFDJ2HGVYZTSPJ6A
-https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/screenshot-20220413-194040.png?token=GHSAT0AAAAAACR7QK2OHS3UUIU2QN7DHPM2ZTSPKDQ
+https://github.com/PuppyGummy/picx-images-hosting/raw/master/screenshot-20220413-193653.2krry54268.webp
+https://github.com/PuppyGummy/picx-images-hosting/raw/master/screenshot-20220413-193704.5fkg3xj8xy.webp
+https://github.com/PuppyGummy/picx-images-hosting/raw/master/screenshot-20220413-193715.4g4cqrghsb.webp
+https://github.com/PuppyGummy/picx-images-hosting/raw/master/screenshot-20220413-193846.1lbokz1b0v.webp
+https://github.com/PuppyGummy/picx-images-hosting/raw/master/screenshot-20220413-193926.3yeb26f47k.webp
+https://github.com/PuppyGummy/picx-images-hosting/raw/master/screenshot-20220413-194040.77deyu2lu8.webp
 {% endcapture %}
 {% include elements/carousel.html %}
 
@@ -74,29 +74,29 @@ Monsters
 
 #### Clock
 
-![](https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/ClockWalk1.png?token=ALASXQQI2KEIAWUHMCVCLCLGOJXXI)
+![](https://github.com/PuppyGummy/picx-images-hosting/raw/master/ClockWalk1.7zqagkj7jz.webp)
 The most common monster. It moves its tiny body towards you and shoots at you.
 
 #### Digital Clock
 
-![](https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/BlueRun1.png?token=ALASXQWNNKSAD6AHWOHKERDGOJXVI)
+![](https://github.com/PuppyGummy/picx-images-hosting/raw/master/BlueRun1.7ax0wjvojj.webp)
 They're timid and run away from you. You need to attack them in a specific order to destroy them.
 
 #### Electric Drill
 
-![](https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/DrillIdle1.png?token=ALASXQXHTJ3O5IVIK3PVAM3GOJXSS)
+![](https://github.com/PuppyGummy/picx-images-hosting/raw/master/DrillIdle1.2velrajabk.webp)
 
 Yep, It's the thing that your annoying neighbor uses every time you tryna sleep. It rushes everywhere and you need to dodge them quickly.
 
 #### Pendulum
 
-![](https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/PendulumIdle1.png?token=ALASXQQEZQR7IGYY5NADOZ3GOJXY6)
+![](https://github.com/PuppyGummy/picx-images-hosting/raw/master/PendulumIdle1.6t6z7yuayo.webp)
 
 It sure looks dumb, but watch out for its bomb!
 
 ### Trumpet
 
-![](https://raw.githubusercontent.com/PuppyGummy/ImageHosting/main/SweetBedtimeO'Mine/TrumpetIdle4.png?token=ALASXQVSQF62YZ2ZIZKEW2TGOJXOK)
+![](https://github.com/PuppyGummy/picx-images-hosting/raw/master/TrumpetIdle4.4uashmosnl.webp)
 
 Its sound wave is destructive, so beat it before it gets you.
 
