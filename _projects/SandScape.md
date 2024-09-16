@@ -2,13 +2,13 @@
 name: SandScape
 tools: [Unity, C#, Blender]
 image: https://PuppyGummy.github.io/picx-images-hosting/QQ20240618-233524@2x.54xmarwl39.webp
-description: A digital solution for sand therapy
+description: A digital solution for sand tray therapy
 ---
 
 # SandScape
 
 <p style="color:DarkGrey">
-A client project for Digital Lab
+A client project for Digital Lab, BC Children's Hospital
 </p>
 
 {% capture carousel_images %}
@@ -19,6 +19,8 @@ https://PuppyGummy.github.io/picx-images-hosting/QQ20240618-233840@2x.58h88hpnse
 https://PuppyGummy.github.io/picx-images-hosting/be818a7a-a832-437a-9fe7-33552ebabf73.7sn2l4pmef.webp
 {% endcapture %}
 {% include elements/carousel.html %}
+
+{% include elements/button.html link="https://projects.thecdm.ca/sandscape/" text="Play Demo" block=true %}
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -31,6 +33,8 @@ Description
 
 SandScape initiative focuses on delivering an engaging, virtual sand tray therapy platform explicitly designed for children and teenagers in Vancouver who have experienced trauma and find traditional therapy challenging in collaboration with BC Children's Hospital Digital Lab. The project aims to provide a safe and interactive space for children to express themselves and explore their emotions through the use of a virtual sand tray. 
 <br>
+
+{% include elements/video.html id="JJVP5A7261s" %}
 
 <p class="text-center" style="color:DarkGrey">
 ---
