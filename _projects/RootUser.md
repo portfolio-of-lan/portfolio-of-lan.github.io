@@ -1,7 +1,7 @@
 ---
 name: RootUser
 tools: [Unity, C#, Aseprite]
-image: https://github.com/PuppyGummy/picx-images-hosting/raw/master/RootOS.361fkg3d16.webp
+image: https://PuppyGummy.github.io/picx-images-hosting/RootOS.361fkg3d16.webp
 description: A puzzle game made for Global Game Jam
 ---
 
@@ -12,9 +12,9 @@ You're trapped in a computer, what would you do? ...
 </p>
 
 {% capture carousel_images %}
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/WX20230224-230446@2x.7p3gnf8tz3.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/WX20230225-152733@2x.9nzndrecao.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/WX20230225-152843@2x.1lbokz65l1.webp
+https://PuppyGummy.github.io/picx-images-hosting/WX20230224-230446@2x.7p3gnf8tz3.webp
+https://PuppyGummy.github.io/picx-images-hosting/WX20230225-152733@2x.9nzndrecao.webp
+https://PuppyGummy.github.io/picx-images-hosting/WX20230225-152843@2x.1lbokz65l1.webp
 {% endcapture %}
 {% include elements/carousel.html %}
 

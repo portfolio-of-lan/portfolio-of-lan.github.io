@@ -1,7 +1,7 @@
 ---
 name: UnstableConcoction
 tools: [Unity, C#, Aseprite]
-image: https://github.com/PuppyGummy/picx-images-hosting/raw/master/title1.8dwq7g0zjv.webp
+image: https://PuppyGummy.github.io/picx-images-hosting/title1.8dwq7g0zjv.webp
 description: A puzzle game made in a gamejam
 ---
 
@@ -12,10 +12,10 @@ a simple puzzle game
 </p>
 
 {% capture carousel_images %}
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/intro.58h88i6kmm.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/intro2.51e0d2kf74.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/level2.4uashmy9ro.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/level3.39l1i612bb.webp
+https://PuppyGummy.github.io/picx-images-hosting/intro.58h88i6kmm.webp
+https://PuppyGummy.github.io/picx-images-hosting/intro2.51e0d2kf74.webp
+https://PuppyGummy.github.io/picx-images-hosting/level2.4uashmy9ro.webp
+https://PuppyGummy.github.io/picx-images-hosting/level3.39l1i612bb.webp
 {% endcapture %}
 {% include elements/carousel.html %}
 
@@ -107,7 +107,7 @@ Don't be afraid of trying!
 
 Good luck and thanks for your playing!
 
-![](https://github.com/PuppyGummy/picx-images-hosting/raw/master/character-final.2a4y4zyb57.webp)
+![](https://PuppyGummy.github.io/picx-images-hosting/character-final.2a4y4zyb57.webp)
 
 <p class="text-center" style="color:DarkGrey">
 ---

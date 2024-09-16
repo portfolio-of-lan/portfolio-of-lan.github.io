@@ -1,7 +1,7 @@
 ---
 name: SandScape
 tools: [Unity, C#, Blender]
-image: https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20240618-233524@2x.54xmarwl39.webp
+image: https://PuppyGummy.github.io/picx-images-hosting/QQ20240618-233524@2x.54xmarwl39.webp
 description: A digital solution for sand therapy
 ---
 
@@ -12,11 +12,11 @@ A client project for Digital Lab
 </p>
 
 {% capture carousel_images %}
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20240618-233600@2x.6ik5et7n3w.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20240618-233613@2x.26lc79obli.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20240618-233628@2x.1sewgeg0q9.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20240618-233840@2x.58h88hpnse.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/be818a7a-a832-437a-9fe7-33552ebabf73.7sn2l4pmef.webp
+https://PuppyGummy.github.io/picx-images-hosting/QQ20240618-233600@2x.6ik5et7n3w.webp
+https://PuppyGummy.github.io/picx-images-hosting/QQ20240618-233613@2x.26lc79obli.webp
+https://PuppyGummy.github.io/picx-images-hosting/QQ20240618-233628@2x.1sewgeg0q9.webp
+https://PuppyGummy.github.io/picx-images-hosting/QQ20240618-233840@2x.58h88hpnse.webp
+https://PuppyGummy.github.io/picx-images-hosting/be818a7a-a832-437a-9fe7-33552ebabf73.7sn2l4pmef.webp
 {% endcapture %}
 {% include elements/carousel.html %}
 

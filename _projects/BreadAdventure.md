@@ -1,7 +1,7 @@
 ---
 name: BreadAdventure
 tools: [Unity, C#, Aseprite]
-image: https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20220124-160331@2x.3go9dlaexz.webp
+image: https://PuppyGummy.github.io/picx-images-hosting/QQ20220124-160331@2x.3go9dlaexz.webp
 description: A simple platform game
 ---
 
@@ -12,10 +12,10 @@ the idea of the game is from another game named <i>StrangeKeyworld</i>
 </p>
 
 {% capture carousel_images %}
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20220124-160400@2x.361fkfv6so.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20220124-160949@2x.6t6z7yqzai.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20220124-161154@2x.6bgxjdplpo.webp
-https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20220124-161131@2x.969lp64sh7.webp
+https://PuppyGummy.github.io/picx-images-hosting/QQ20220124-160400@2x.361fkfv6so.webp
+https://PuppyGummy.github.io/picx-images-hosting/QQ20220124-160949@2x.6t6z7yqzai.webp
+https://PuppyGummy.github.io/picx-images-hosting/QQ20220124-161154@2x.6bgxjdplpo.webp
+https://PuppyGummy.github.io/picx-images-hosting/QQ20220124-161131@2x.969lp64sh7.webp
 {% endcapture %}
 {% include elements/carousel.html %}
 
@@ -67,7 +67,7 @@ How to Play
 ---
 </p>
 
-<img src="https://github.com/PuppyGummy/picx-images-hosting/raw/master/bread-idle.7egmu9lbdn.gif"/>
+<img src="https://PuppyGummy.github.io/picx-images-hosting/bread-idle.7egmu9lbdn.gif"/>
 <br>
 <div class="text-center">
 <a style="color:DarkGrey" href="https://github.com/PuppyGummy/BreadAdventureProject">

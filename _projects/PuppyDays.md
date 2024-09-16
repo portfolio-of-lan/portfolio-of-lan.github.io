@@ -1,7 +1,7 @@
 ---
 name: PuppyDays
 tools: [Unity, C#, Spine]
-image: https://github.com/PuppyGummy/picx-images-hosting/raw/master/QQ20240330-011327@2x.8ad49qblvx.webp
+image: https://PuppyGummy.github.io/picx-images-hosting/QQ20240330-011327@2x.8ad49qblvx.webp
 description: An adventure game about how a bunch of puppies finds their disappeared owners
 ---
 
@@ -126,7 +126,7 @@ Characters
         whatever fluffy says
     </div>
     <div id="qr" style="display:inline-block; align: center;vertical-align: middle;padding:30px">
-        <img width="271.5" src="https://github.com/PuppyGummy/picx-images-hosting/raw/master/博美姐妹立绘-3.13lmwed7we.webp">
+        <img width="271.5" src="https://PuppyGummy.github.io/picx-images-hosting/博美姐妹立绘-3.13lmwed7we.webp">
     </div>
 </div>
 
