@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Yelp Rating Prediction using Sentiment Analysis",
+      "category" : "",
+      "tags"     : "AI",
+      "url"      : "https://github.com/PuppyGummy/Yelp-Ratings-Prediction",
+      "date"     : "2024-09-16 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Network Intrusion Detection System",
+      "category" : "",
+      "tags"     : "AI",
+      "url"      : "https://github.com/PuppyGummy/Network-Intrusion-Detection-System",
+      "date"     : "2024-09-16 00:00:00 -0700"
+    } ,
+  
+    {
       "title"    : "Indoor AR Navigation Project",
       "category" : "",
       "tags"     : "Navigation",
