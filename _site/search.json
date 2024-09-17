@@ -9,6 +9,14 @@
     } ,
   
     {
+      "title"    : "Creatures-VRGame",
+      "category" : "",
+      "tags"     : "VR Game",
+      "url"      : "https://github.com/PuppyGummy/Creatures-VRGame",
+      "date"     : "2024-09-16 00:00:00 -0700"
+    } ,
+  
+    {
       "title"    : "SandScape Project",
       "category" : "",
       "tags"     : "Therapy",
@@ -30,14 +38,6 @@
       "tags"     : "Game",
       "url"      : "https://github.com/gamemagics/Sweet-Bedtime-O-Mine",
       "date"     : "2022-10-21 00:00:00 -0700"
-    } ,
-  
-    {
-      "title"    : "CampusDiningReviews",
-      "category" : "",
-      "tags"     : "WeChat Applet",
-      "url"      : "https://github.com/PuppyGummy/CampusDiningReviews-WeChat",
-      "date"     : "2022-01-25 00:00:00 -0800"
     } ,
   
     {
