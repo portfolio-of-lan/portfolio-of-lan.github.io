@@ -27,6 +27,8 @@ https://s2.loli.net/2022/01/15/FKitj2vC96Yckhm.png
 ---
 </p>
 
+{% include elements/video.html id="EAMHyOdqNLs" %}
+
 <h3 class="text-center">
 About
 </h3>
@@ -88,13 +90,13 @@ Characters
         - brave but reckless
     </div>
     <div id="qr" style="display:inline-block; align: center;vertical-align: middle; padding:30px">
-        <img src="https://s2.loli.net/2022/01/15/tfevim5SEoxMpdK.png" width="332.5">
+        <img src="https://s2.loli.net/2022/01/15/tfevim5SEoxMpdK.png" style="max-width: 175px; max-height: 175px; width: auto; height: auto;">
     </div>
 </div>
 
 <div class="text-center">
     <div id="qr" style="display:inline-block; align: center;vertical-align: middle;padding-right:30px">
-        <img width="532" src="https://s2.loli.net/2022/01/15/ALrbOtgRYGKCwfs.png">
+        <img src="https://s2.loli.net/2022/01/15/ALrbOtgRYGKCwfs.png" style="max-width: 300px; max-height: 300px; width: auto; height: auto;">
     </div>
     <div style="display:inline-block;vertical-align:middle;padding-left:30px" align=left>
         <h4><u>Beans</u></h4>
@@ -126,13 +128,14 @@ Characters
         whatever fluffy says
     </div>
     <div id="qr" style="display:inline-block; align: center;vertical-align: middle;padding:30px">
-        <img width="271.5" src="https://PuppyGummy.github.io/picx-images-hosting/博美姐妹立绘-3.13lmwed7we.webp">
+        <img src="https://PuppyGummy.github.io/picx-images-hosting/博美姐妹立绘-3.13lmwed7we.webp" style="max-width: 130px; max-height: 130px; width: auto; height: auto;">
     </div>
 </div>
 
 <div class="text-center">
     <div id="qr" style="display:inline-block; align: center;vertical-align: middle;padding-right:30px">
-        <img width="594" src="https://s2.loli.net/2022/01/15/3hdlmX4SWqkj1wx.png">
+        <img src="https://s2.loli.net/2022/01/15/3hdlmX4SWqkj1wx.png" style="max-width: 275px; max-height: 275px; width: auto; height: auto;">
+
     </div>
     <div style="display:inline-block;vertical-align: middle;padding-left:30px" align=left>
         <h4><u>Sparky</u></h4>
@@ -164,7 +167,7 @@ Characters
         - got the name since he barks a lot
     </div>
     <div id="qr" style="display:inline-block; align: center;vertical-align: middle;padding:30px">
-        <img width="415" src="https://s2.loli.net/2022/01/15/X9qxH2e5B3DkUhj.png">
+        <img src="https://PuppyGummy.github.io/picx-images-hosting/比格立绘.45n84uceo.webp" style="max-width: 175px; max-height: 175px; width: auto; height: auto;">
     </div>
 </div>
 

@@ -1,11 +1,11 @@
-- name: C/C++/C#
+- name: C#
   percentage: 85
   color: danger
 
-- name: Java
-  percentage: 50
+- name: C++/Java
+  percentage: 70
   color:
 
-- name: Python
+- name: Python/Golang
   percentage: 50
   color: secondary
