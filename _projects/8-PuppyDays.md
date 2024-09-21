@@ -1,5 +1,5 @@
 ---
-name: PuppyDays
+name: Puppy Days
 tools: [Unity, C#, Spine]
 image: https://PuppyGummy.github.io/picx-images-hosting/QQ20240330-011327@2x.8ad49qblvx.webp
 description: An adventure game about how a bunch of puppies finds their disappeared owners

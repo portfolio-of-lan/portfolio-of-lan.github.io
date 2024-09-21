@@ -1,5 +1,5 @@
 ---
-name: SweetBedtimeO'Mine
+name: Sweet Bedtime O' Mine
 tools: [Unity, C#, Aseprite]
 image: https://PuppyGummy.github.io/picx-images-hosting/20220413-184732.3uup4gm1ha.webp
 description: A roguelike game for LD50

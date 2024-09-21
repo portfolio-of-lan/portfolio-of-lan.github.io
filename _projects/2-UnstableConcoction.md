@@ -1,5 +1,5 @@
 ---
-name: UnstableConcoction
+name: Unstable Concoction
 tools: [Unity, C#, Aseprite]
 image: https://PuppyGummy.github.io/picx-images-hosting/title1.8dwq7g0zjv.webp
 description: A puzzle game made in a gamejam

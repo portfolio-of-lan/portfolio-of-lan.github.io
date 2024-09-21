@@ -1,5 +1,5 @@
 ---
-name: BreadAdventure
+name: Bread Adventure
 tools: [Unity, C#, Aseprite]
 image: https://PuppyGummy.github.io/picx-images-hosting/QQ20220124-160331@2x.3go9dlaexz.webp
 description: A simple platform game

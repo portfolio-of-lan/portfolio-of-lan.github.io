@@ -1,5 +1,5 @@
 ---
-name: RootUser
+name: Root User
 tools: [Unity, C#, Aseprite]
 image: https://PuppyGummy.github.io/picx-images-hosting/RootOS.361fkg3d16.webp
 description: A puzzle game made for Global Game Jam
