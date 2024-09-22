@@ -17,6 +17,8 @@ shows all kinds of my art works as hobbies
 <h3 class="text-center"> 
 3D Models
 </h3>
+{% include elements/video.html id="R9P0pz0MMnk" %}
+{% include elements/video.html id="i0JyA1_IblY" %}
 {% include elements/video.html id="T3bxiWcmWeI" %}
 
 <p class="text-center" style="color:DarkGrey">
