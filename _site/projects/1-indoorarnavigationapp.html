@@ -119,7 +119,7 @@ Description
 </h3>
 <p><br /></p>
 
-<p>BC Children’s Hospital is facing navigation challenges due to their large and complex campus, leading to confusion, appointment delays, and clinic disruptions. This project aimed to resolve this by developing an augmented reality (AR) navigation app using ARKit and advanced navigation technologies. The app overlays real-time directional cues onto users’ mobile devices, allowing them to easily find specific departments and services. The solution enables the hospital to manage and modify navigation routes, enhancing the overall experience for patients, visitors, and staff.</p>
+<p>BC Children’s Hospital is facing navigation challenges due to their large and complex campus, leading to confusion, appointment delays, and clinic disruptions. This project aimed to resolve this by developing an augmented reality (AR) navigation app using ARKit and advanced navigation technologies. The app overlays real-time directional cues onto users’ mobile devices, allowing them to easily find specific departments and services. The solution enables the hospital to manage and modify navigation routes, enhancing the overall experience for patients, visitors, and staff. The scope also includes a points of interest (POI) feature, with AR content floating above specific locations, providing additional information and enhancing the user experience.</p>
 
 <p><br /></p>
 
@@ -136,7 +136,23 @@ About
 </h3>
 <p><br /></p>
 
-<p>This is a 12-week client project in cooperation with Digital Lab, BC Children’s Hospital. In this project, I have accomplished the following tasks:</p>
+<p>This is a 12-week client project in cooperation with Digital Lab, BC Children’s Hospital.</p>
+
+<h5 id="challenges">Challenges</h5>
+
+<p>The biggest hurdle in implementing indoor navigation was how to locate the users(user localization). Typically, there are three common methods: external hardware (like beacons), visual positioning systems (VPS) using machine learning, and visual markers. I initially planned to use VPS and spent several days researching, only to find that most of the resources online were deprecated, and we didn’t have time to build the system from scratch. Beacons were not a viable option either due to long shipping times and a limited budget (200 CAD for the entire project). This left me with one option: visual markers.</p>
+
+<p>However, visual markers couldn’t provide us with a smooth experience, as users need to scan them very frequently to locate themselves. Then, just four weeks before the deadline, the client shifted priorities, asking me to focus on the points of interest(POI) feature, a whole new system that they might not have realized. That is to say, I had to build a system for placing, editing, customizing, saving, and sharing ARAnchors within just four weeks, despite having no prior experience with ARAnchors.</p>
+
+<h5 id="solutions">Solutions</h5>
+
+<p>To improve the user experience, I recommended that our client, Digital Lab, explore beacons or third-party services after taking over the project. I researched several vendors and had meetings with some of them, and developed an evaluation metric to weigh their advantages. The research was documented and provided to the client as part of the deliverables.</p>
+
+<p>As the lead developer, I tried my best to deliver the POI system. One significant challenge was saving and restoring ARAnchors. Saving and restoring the anchors was tricky since each anchor is assigned a few feature points of its surroundings to bind the anchor with the corresponding physical space and avoid drifting. Simply saving the anchor’s pose won’t work, because the feature points are missing. In the end, I used ARKit to save the whole ARWorldMap. With the anchors saved locally, I then faced the task of sharing the data across devices to ensure a consistent experience. By that time, I had only two days left for final delivery, and I started learning Firebase. Not only did I have to upload the ARWorldMap data, but also any associated media. I utilized every resource available, from developer documentation to YouTube tutorials and AI tools, and successfully implemented cloud sharing just in time.</p>
+
+<p>I believe this project demonstrated my ability to communicate and collaborate effectively with clients and stakeholders, particularly in a professional setting. It also highlighted my proactive problem-solving, strategic thinking, and decision-making skills, as I evaluated multiple solutions and proposed the most viable option, ensuring the client was fully informed. Also worth noting is my ability to quickly adapt, learn new technologies, and deliver complex solutions under tight deadlines.</p>
+
+<p>In this project, I have accomplished the following tasks:</p>
 <ul>
   <li>Implemented indoor navigation using pre-built building models and NavMesh, utilizing visual markers for positioning.</li>
   <li>Developed customizable AR content (text, images, videos) using ARAnchor, enabling placement, deletion, and editing of transform, to serve as points of interest.</li>
