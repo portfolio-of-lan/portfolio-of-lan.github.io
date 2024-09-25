@@ -45,23 +45,34 @@ About
 </h3>
 <br>
 
-This is a 12-week client project for my masters program. In this project, I was collaborating with another developer on the implementation of features. I was maily responsible for the following tasks:
-- The interaction with miniatures, including 
-  - spawning the object
-  - selecting the object
-  - dragging
-  - rotating
-  - scaling
-  - burying the object
-  - resetting
-  - deleting
-  - locking the object
-- Integration of gizmo control
-- Undo and redo
-- Save and load
-- Camera control
+This is a 12-week client project for my masters program. In this project, I was collaborating with another developer on the implementation of features. 
 
-Compared to my other project, this was a relatively big project, and it turned out to be a great experience for me to work with a team and to learn how to collaborate with others. I also learned a lot about version control with Git and how to manage a project with multiple developers.
+In this project, we drew inspiration from [Simply Sand Play](https://simplysandplay.com/) but enhanced the user experience, particularly with the dragging interactions. Unlike Simply Sand Play, where dragging is laggy, we implemented smooth dragging and improved precision by integrating a runtime gizmo tool. We also introduced an innovative customization system, allowing children to express their creativity more freely while telling their stories. Additionally, I proposed a feature to disable the physics (mainly collisions) of the miniatures, enabling users to combine multiple miniatures and create unique, custom figures.
+
+Compared to my other projects, this was a larger-scale endeavor, and it became a valuable experience in teamwork and collaboration. I gained significant insights into version control using Git and learned how to effectively manage a project with multiple developers, ensuring smooth coordination and integration of our work.
+
+#### Challenges & Solutions
+
+One of the challenges in this project was implementing a robust undo/redo feature. This required not only tracking the transformations (position, rotation, and scale) of miniatures but also handling complex operations like adding/removing objects and customizing elements such as changing colors or outfits. To achieve this, I designed a custom data structure to record user actions and utilized two stacks: one for undo operations and one for redo operations. Each operation, whether it involved modifying the transform, adding or deleting objects, or applying customizations, was stored as an individual record in these stacks. For operations involving model addition/removal, I dynamically loaded and instantiated the relevant prefab files using Unity’s Resources.Load function to ensure that the correct assets were managed and restored seamlessly during undo/redo actions.
+
+This project demonstrated my ability to work effectively within a team and collaborate on a more complex and demanding initiative, strengthening my teamwork and communication skills. It also showcased my problem-solving skills, particularly in designing and implementing complex features like the undo/redo system.
+
+#### Contributions
+
+I was mainly responsible for the following tasks:
+- Implemented interaction with miniatures, either single or multiple at a time, which includes:
+  - selection (click and box selection)
+  - dragging
+  - scaling (with mouse wheel/UI button)
+  - rotating
+  - burying (like in the real sand tray therapy)
+  - locking/unlocking
+  - duplicating
+  - removing
+
+- Tracked user actions with stacks to enable undo and redo functionality.
+
+- Serialized data into JSON format with custom data structures for local saving and loading.
 
 <p class="text-center" style="color:DarkGrey">
 ---

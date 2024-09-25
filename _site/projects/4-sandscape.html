@@ -148,28 +148,39 @@ About
 </h3>
 <p><br /></p>
 
-<p>This is a 12-week client project for my masters program. In this project, I was collaborating with another developer on the implementation of features. I was maily responsible for the following tasks:</p>
+<p>This is a 12-week client project for my masters program. In this project, I was collaborating with another developer on the implementation of features.</p>
+
+<p>In this project, we drew inspiration from <a href="https://simplysandplay.com/">Simply Sand Play</a> but enhanced the user experience, particularly with the dragging interactions. Unlike Simply Sand Play, where dragging is laggy, we implemented smooth dragging and improved precision by integrating a runtime gizmo tool. We also introduced an innovative customization system, allowing children to express their creativity more freely while telling their stories. Additionally, I proposed a feature to disable the physics (mainly collisions) of the miniatures, enabling users to combine multiple miniatures and create unique, custom figures.</p>
+
+<p>Compared to my other projects, this was a larger-scale endeavor, and it became a valuable experience in teamwork and collaboration. I gained significant insights into version control using Git and learned how to effectively manage a project with multiple developers, ensuring smooth coordination and integration of our work.</p>
+
+<h4 id="challenges--solutions">Challenges &amp; Solutions</h4>
+
+<p>One of the challenges in this project was implementing a robust undo/redo feature. This required not only tracking the transformations (position, rotation, and scale) of miniatures but also handling complex operations like adding/removing objects and customizing elements such as changing colors or outfits. To achieve this, I designed a custom data structure to record user actions and utilized two stacks: one for undo operations and one for redo operations. Each operation, whether it involved modifying the transform, adding or deleting objects, or applying customizations, was stored as an individual record in these stacks. For operations involving model addition/removal, I dynamically loaded and instantiated the relevant prefab files using Unity’s Resources.Load function to ensure that the correct assets were managed and restored seamlessly during undo/redo actions.</p>
+
+<p>This project demonstrated my ability to work effectively within a team and collaborate on a more complex and demanding initiative, strengthening my teamwork and communication skills. It also showcased my problem-solving skills, particularly in designing and implementing complex features like the undo/redo system.</p>
+
+<h4 id="contributions">Contributions</h4>
+
+<p>I was mainly responsible for the following tasks:</p>
 <ul>
-  <li>The interaction with miniatures, including
+  <li>Implemented interaction with miniatures, either single or multiple at a time, which includes:
     <ul>
-      <li>spawning the object</li>
-      <li>selecting the object</li>
+      <li>selection (click and box selection)</li>
       <li>dragging</li>
+      <li>scaling (with mouse wheel/UI button)</li>
       <li>rotating</li>
-      <li>scaling</li>
-      <li>burying the object</li>
-      <li>resetting</li>
-      <li>deleting</li>
-      <li>locking the object</li>
+      <li>burying (like in the real sand tray therapy)</li>
+      <li>locking/unlocking</li>
+      <li>duplicating</li>
+      <li>removing</li>
     </ul>
   </li>
-  <li>Integration of gizmo control</li>
-  <li>Undo and redo</li>
-  <li>Save and load</li>
-  <li>Camera control</li>
+  <li>
+    <p>Tracked user actions with stacks to enable undo and redo functionality.</p>
+  </li>
+  <li>Serialized data into JSON format with custom data structures for local saving and loading.</li>
 </ul>
-
-<p>Compared to my other project, this was a relatively big project, and it turned out to be a great experience for me to work with a team and to learn how to collaborate with others. I also learned a lot about version control with Git and how to manage a project with multiple developers.</p>
 
 <p class="text-center" style="color:DarkGrey">
 ---
