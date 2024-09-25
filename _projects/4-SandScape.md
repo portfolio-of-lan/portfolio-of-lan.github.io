@@ -51,13 +51,13 @@ In this project, we drew inspiration from [Simply Sand Play](https://simplysandp
 
 Compared to my other projects, this was a larger-scale endeavor, and it became a valuable experience in teamwork and collaboration. I gained significant insights into version control using Git and learned how to effectively manage a project with multiple developers, ensuring smooth coordination and integration of our work.
 
-#### Challenges & Solutions
+##### Challenges & Solutions
 
 One of the challenges in this project was implementing a robust undo/redo feature. This required not only tracking the transformations (position, rotation, and scale) of miniatures but also handling complex operations like adding/removing objects and customizing elements such as changing colors or outfits. To achieve this, I designed a custom data structure to record user actions and utilized two stacks: one for undo operations and one for redo operations. Each operation, whether it involved modifying the transform, adding or deleting objects, or applying customizations, was stored as an individual record in these stacks. For operations involving model addition/removal, I dynamically loaded and instantiated the relevant prefab files using Unity’s Resources.Load function to ensure that the correct assets were managed and restored seamlessly during undo/redo actions.
 
 This project demonstrated my ability to work effectively within a team and collaborate on a more complex and demanding initiative, strengthening my teamwork and communication skills. It also showcased my problem-solving skills, particularly in designing and implementing complex features like the undo/redo system.
 
-#### Contributions
+##### Contributions
 
 I was mainly responsible for the following tasks:
 - Implemented interaction with miniatures, either single or multiple at a time, which includes:

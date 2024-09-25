@@ -57,7 +57,7 @@ As the lead developer, I tried my best to deliver the POI system. One significan
 
 I believe this project demonstrated my ability to communicate and collaborate effectively with clients and stakeholders, particularly in a professional setting. It also highlighted my proactive problem-solving, strategic thinking, and decision-making skills, as I evaluated multiple solutions and proposed the most viable option, ensuring the client was fully informed. Also worth noting is my ability to quickly adapt, learn new technologies, and deliver complex solutions under tight deadlines.
 
-#### Contributions
+##### Contributions
 
 In this project, I have accomplished the following tasks:
 - Implemented indoor navigation using pre-built building models and NavMesh, utilizing visual markers for positioning.
