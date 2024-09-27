@@ -19,7 +19,19 @@ https://PuppyGummy.github.io/picx-images-hosting/level3.39l1i612bb.webp
 {% endcapture %}
 {% include elements/carousel.html %}
 
-{% include elements/button.html link="https://chocolate-kami.itch.io/unstableconcoction" text="Play Game" block=true %}
+<!-- {% include elements/button.html link="https://chocolate-kami.itch.io/unstableconcoction" text="Play Game" block=true %} -->
+
+<div class="d-flex w-100 gap-2">
+  <!-- Button 1: Play Demo -->
+  <a class="m-1 btn btn-primary flex-grow-1" href="https://chocolate-kami.itch.io/unstableconcoction">
+    Play Game
+  </a>
+
+  <!-- Button 2: Download -->
+  <a class="m-1 btn btn-secondary flex-grow-1" href="https://github.com/PuppyGummy/UnstableConcoctionProject">
+    Source Code
+  </a>
+</div>
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -136,9 +148,3 @@ If you get stuck in the game, you could check the table above.
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/UnstableConcoctionProject">
-view source code here
-</a>
-</div>

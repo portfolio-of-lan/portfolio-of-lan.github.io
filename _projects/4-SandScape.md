@@ -20,7 +20,19 @@ https://PuppyGummy.github.io/picx-images-hosting/be818a7a-a832-437a-9fe7-33552eb
 {% endcapture %}
 {% include elements/carousel.html %}
 
-{% include elements/button.html link="https://projects.thecdm.ca/sandscape/" text="Play Demo" block=true %}
+<!-- {% include elements/button.html link="https://projects.thecdm.ca/sandscape/" text="Play Demo" block=true %} -->
+
+<div class="d-flex w-100 gap-2">
+  <!-- Button 1: Play Demo -->
+  <a class="m-1 btn btn-primary flex-grow-1" href="https://projects.thecdm.ca/sandscape/">
+    Play Demo
+  </a>
+
+  <!-- Button 2: Download -->
+  <a class="m-1 btn btn-secondary flex-grow-1" href="https://github.com/PuppyGummy/SandScape">
+    Source Code
+  </a>
+</div>
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -77,10 +89,3 @@ I was mainly responsible for the following tasks:
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<br>
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/SandScape">
-view source code here
-</a>
-</div>

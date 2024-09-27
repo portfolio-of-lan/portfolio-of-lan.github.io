@@ -13,6 +13,8 @@ A VR pet silumation game
 
 {% include elements/video.html id="-dU89ntY7C8" %}
 
+{% include elements/button.html link="https://github.com/PuppyGummy/Creatures-VRGame" text="Source Code" block=true %}
+
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
@@ -53,10 +55,3 @@ To tackle this, I took a proactive approach to learning. I turned to online reso
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<br>
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/Creatures-VRGame">
-view source code here
-</a>
-</div>

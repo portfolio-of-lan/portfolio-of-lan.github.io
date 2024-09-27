@@ -18,13 +18,23 @@ https://PuppyGummy.github.io/picx-images-hosting/QQ20240919-211749.8dwtw5gfde.we
 {% endcapture %}
 {% include elements/carousel.html %}
 
-{% include elements/button.html link="https://chocolate-kami.itch.io/cannerytycoon" text="Play Game" block=true %}
+<!-- {% include elements/button.html link="https://chocolate-kami.itch.io/cannerytycoon" text="Play Game" block=true %} -->
+
+<div class="d-flex w-100 gap-2">
+  <!-- Button 1: Play Demo -->
+  <a class="m-1 btn btn-primary flex-grow-1" href="https://chocolate-kami.itch.io/cannerytycoon">
+    Play Game
+  </a>
+
+  <!-- Button 2: Download -->
+  <a class="m-1 btn btn-secondary flex-grow-1" href="https://github.com/PuppyGummy/CanneryTycoon">
+    Source Code
+  </a>
+</div>
 
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-{% include elements/video.html id="9eTBLtXI4Gc" %}
 
 <h3 class="text-center">
 Description
@@ -36,6 +46,8 @@ By bringing attention to this unique cultural landmark, the game will help promo
 
 The project is a 2D video game, dedicated to bringing traffic to the Steveston Cannery, by simulating the process of catching and canning fish, supporting preservation and cultural significance for future generations.
 <br>
+
+{% include elements/video.html id="9eTBLtXI4Gc" %}
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -58,9 +70,3 @@ My contributions are as follows:
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/CanneryTycoon">
-view source code here
-</a>
-</div>

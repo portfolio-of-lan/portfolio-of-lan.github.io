@@ -21,13 +21,23 @@ https://s2.loli.net/2022/01/15/FKitj2vC96Yckhm.png
 {% endcapture %}
 {% include elements/carousel.html %}
 
-{% include elements/button.html link="https://github.com/PuppyGummy/PuppyDaysProject/releases/tag/Demo" text="Play Demo" block=true %}
+<!-- {% include elements/button.html link="https://github.com/PuppyGummy/PuppyDaysProject/releases/tag/Demo" text="Play Demo" block=true %} -->
+
+<div class="d-flex w-100 gap-2">
+  <!-- Button 1: Play Demo -->
+  <a class="m-1 btn btn-primary flex-grow-1" href="">
+    Play Demo
+  </a>
+
+  <!-- Button 2: Download -->
+  <a class="m-1 btn btn-secondary flex-grow-1" href="https://github.com/PuppyGummy/PuppyDays">
+    Source Code
+  </a>
+</div>
 
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-{% include elements/video.html id="EAMHyOdqNLs" %}
 
 <h3 class="text-center">
 About
@@ -39,6 +49,8 @@ The project is made all by myself, including the design of the whole story and c
 
 However, this game is still in development. The biggest challenge is how to make a dialogue system, and I used a free plugin, YarnSpinner, to help me. This plugin was also used in <i>Night in the Woods</i>, which was also the reference of this project. I learned to used ANTLR to parse the scripts into readable language for the program.
 <br>
+
+{% include elements/video.html id="EAMHyOdqNLs" %}
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -184,9 +196,3 @@ to be supplemented...
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/PuppyDaysProject">
-view source code here
-</a>
-</div>

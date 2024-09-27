@@ -17,6 +17,8 @@ A course project for Artificial Intelligence
 ---
 </p>
 
+{% include elements/button.html link="https://github.com/PuppyGummy/Network-Intrusion-Detection-System" text="Source Code" block=true %}
+
 <h3 class="text-center"> 
 Description
 </h3>
@@ -44,10 +46,3 @@ This is a course project for my Artificial Intelligence class. In this project, 
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<br>
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/Network-Intrusion-Detection-System">
-view source code here
-</a>
-</div>

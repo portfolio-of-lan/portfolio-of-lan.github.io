@@ -17,6 +17,8 @@ https://PuppyGummy.github.io/picx-images-hosting/IMG_3878.8ad7svg3ix.webp
 {% endcapture %}
 {% include elements/carousel.html %}
 
+{% include elements/button.html link="https://github.com/PuppyGummy/ARNavi" text="Source Code" block=true %}
+
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
@@ -69,10 +71,3 @@ In this project, I have accomplished the following tasks:
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<br>
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/ARNavi">
-view source code here
-</a>
-</div>

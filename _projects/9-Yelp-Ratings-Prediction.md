@@ -12,6 +12,7 @@ description: A multi-task CNN model that performs both classification and regres
 A course project for Artificial Intelligence
 </p>
 
+{% include elements/button.html link="https://github.com/PuppyGummy/Yelp-Ratings-Prediction" text="Source Code" block=true %}
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -48,10 +49,3 @@ This is a course project for my Artificial Intelligence class. In this project, 
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<br>
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/Yelp-Ratings-Prediction">
-view source code here
-</a>
-</div>

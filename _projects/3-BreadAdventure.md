@@ -19,7 +19,19 @@ https://PuppyGummy.github.io/picx-images-hosting/QQ20220124-161131@2x.969lp64sh7
 {% endcapture %}
 {% include elements/carousel.html %}
 
-{% include elements/button.html link="https://github.com/PuppyGummy/BreadAdventureProject/releases/tag/Release" text="Play Demo" block=true %}
+<!-- {% include elements/button.html link="https://github.com/PuppyGummy/BreadAdventureProject/releases/tag/Release" text="Play Demo" block=true %} -->
+
+<div class="d-flex w-100 gap-2">
+  <!-- Button 1: Play Demo -->
+  <a class="m-1 btn btn-primary flex-grow-1" href="https://github.com/PuppyGummy/BreadAdventureProject/releases/tag/Release">
+    Play Demo
+  </a>
+
+  <!-- Button 2: Download -->
+  <a class="m-1 btn btn-secondary flex-grow-1" href="https://github.com/PuppyGummy/BreadAdventureProject">
+    Source Code
+  </a>
+</div>
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -69,8 +81,3 @@ How to Play
 
 <img src="https://PuppyGummy.github.io/picx-images-hosting/bread-idle.7egmu9lbdn.gif"/>
 <br>
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/BreadAdventureProject">
-view source code here
-</a>
-</div>

@@ -20,7 +20,19 @@ https://PuppyGummy.github.io/picx-images-hosting/screenshot-20220413-194040.77de
 {% endcapture %}
 {% include elements/carousel.html %}
 
-{% include elements/button.html link="https://chocolate-kami.itch.io/sweet-bedtime-o-mine" text="Play Game" block=true %}
+<!-- {% include elements/button.html link="https://chocolate-kami.itch.io/sweet-bedtime-o-mine" text="Play Game" block=true %} -->
+
+<div class="d-flex w-100 gap-2">
+  <!-- Button 1: Play Demo -->
+  <a class="m-1 btn btn-primary flex-grow-1" href="https://chocolate-kami.itch.io/sweet-bedtime-o-mine">
+    Play Game
+  </a>
+
+  <!-- Button 2: Download -->
+  <a class="m-1 btn btn-secondary flex-grow-1" href="https://github.com/gamemagics/Sweet-Bedtime-O-Mine">
+    Source Code
+  </a>
+</div>
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -118,9 +130,3 @@ Thanks for their free music!
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/gamemagics/Sweet-Bedtime-O-Mine">
-view source code here
-</a>
-</div>

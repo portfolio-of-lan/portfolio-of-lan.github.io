@@ -18,7 +18,19 @@ https://PuppyGummy.github.io/picx-images-hosting/WX20230225-152843@2x.1lbokz65l1
 {% endcapture %}
 {% include elements/carousel.html %}
 
-{% include elements/button.html link="https://chocolate-kami.itch.io/root-user" text="Play Game" block=true %}
+<!-- {% include elements/button.html link="https://chocolate-kami.itch.io/root-user" text="Play Game" block=true %} -->
+
+<div class="d-flex w-100 gap-2">
+  <!-- Button 1: Play Demo -->
+  <a class="m-1 btn btn-primary flex-grow-1" href="https://chocolate-kami.itch.io/root-user">
+    Play Game
+  </a>
+
+  <!-- Button 2: Download -->
+  <a class="m-1 btn btn-secondary flex-grow-1" href="https://github.com/PuppyGummy/RootUser">
+    Source Code
+  </a>
+</div>
 
 <p class="text-center" style="color:DarkGrey">
 ---
@@ -60,9 +72,3 @@ How to Play
 <p class="text-center" style="color:DarkGrey">
 ---
 </p>
-
-<div class="text-center">
-<a style="color:DarkGrey" href="https://github.com/PuppyGummy/RootUser">
-view source code here
-</a>
-</div>
