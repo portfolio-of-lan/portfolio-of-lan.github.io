@@ -16,7 +16,7 @@ But my interests don’t stop there. I’m also fascinated by the immersive pote
 
 Whether it’s building game worlds, exploring AR/VR, or experimenting with AI, I’m always excited to create something new.
 
-{% include elements/button.html link="https://rxresu.me/815918091/lan-xu-software-engineer" text="Download CV" block=true %}
+{% include elements/button.html link="https://rxresu.me/815918091/lan-xu-resume" text="Download CV" block=true %}
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
