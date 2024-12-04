@@ -1,7 +1,7 @@
 ---
 name: Network Intrusion Detection System
 tools: [Python, Machine Learning]
-image: 
+image: https://PuppyGummy.github.io/picx-images-hosting/cyber-security-1784985_1280.175fgdroq1.webp
 description: A classification model that detects network intrusions
 # external_url: https://github.com/PuppyGummy/Network-Intrusion-Detection-System
 ---

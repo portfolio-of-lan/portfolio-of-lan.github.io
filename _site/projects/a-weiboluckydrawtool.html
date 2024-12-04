@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Weibo Lucky Draw Tool">
+  <meta property="og:description" content="A tool for drawing users from Weibo posts">
+
+  <title>Weibo Lucky Draw Tool</title>
+  <meta name="description" content="A tool for drawing users from Weibo posts">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Lan's DevHub</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/pages/Photography"></a>
+
+      <a class="nav-item nav-link " href="/pages/Modeling"></a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/codes/">Codes</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/extra/">Extra</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="weibo-lucky-draw-tool">Weibo Lucky Draw Tool</h1>
+
+<p style="color:DarkGrey">
+A personal web project
+</p>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+          <img src="https://PuppyGummy.github.io/picx-images-hosting/QQ20241203-185257.6bh476blmn.webp" class="d-block w-100" />
+        </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+
+<div class="d-flex w-100 gap-2">
+  <!-- Button 1: View Demo -->
+  <a class="m-1 btn btn-primary flex-grow-1" href="https://luckydrawtool.online">
+    View App
+  </a>
+
+  <!-- Button 2: Code -->
+  <a class="m-1 btn btn-secondary flex-grow-1" href="https://github.com/PuppyGummy/WeiboLuckyDrawTool">
+    Source Code
+  </a>
+</div>
+
+<p class="text-center" style="color:DarkGrey">
+---
+</p>
+
+<h3 class="text-center"> 
+Description
+</h3>
+<p><br /></p>
+
+<p>This is an online tool for drawing users from Weibo posts. It is designed to help Weibo users randomly select users from their followers who have liked or reposted their posts.</p>
+
+<p><br /></p>
+
+<p class="text-center" style="color:DarkGrey">
+---
+</p>
+
+<h3 class="text-center">
+About
+</h3>
+<p><br /></p>
+
+<h5 id="challenges--solutions">Challenges &amp; Solutions</h5>
+
+<p>Driven by my interest in building this tool and its potential to help other Weibo users, I decided to challenge myself. Without any prior experience in developing web apps, the biggest obstacle was figuring out how to get started. I had to rely entirely on self-learning to complete this project. While the backend was relatively straightforward, I struggled to connect it with the frontend. By seeking guidance from ChatGPT, I learned how to use Flask to enable communication between the two.</p>
+
+<p>To make the tool publicly accessible, I needed to deploy it to a server, which required configuring the server environment and installing project dependencies. Once that was resolved, a new challenge arose: the callback URL for Weibo’s OAuth 2.0 authorization needed to use the HTTPS protocol. This meant configuring an SSL certificate for my server. I encountered repeated failures—neither tutorials nor assistance from LLMs provided a solution. Eventually, I consulted experienced developers online and learned that the issue stemmed from regional policies tied to my domain registration. Understanding these policies allowed me to overcome the problem, successfully deploy the tool, and release it after testing with the help of friends.</p>
+
+<p>This experience demonstrated my resilience and adaptability in overcoming unfamiliar challenges. It highlighted my ability to independently learn new skills, such as web app development and server deployment, and to persist through repeated failures. It also showcased my resourcefulness in seeking help from various sources—whether it was consulting AI tools, researching policies, or reaching out to experienced developers—to find practical solutions and achieve my goals.</p>
+
+<h5 id="contributions">Contributions</h5>
+
+<p>This is a personal project. In this project, I:</p>
+<ul>
+  <li>Developed a backend service using Python and Flask to interact with the Weibo API and perform the lucky draw.
+    <ul>
+      <li>Authorized the application to access the Weibo API using OAuth 2.0.</li>
+      <li>Redirected users to the callback URL after authorization to obtain the access token.</li>
+      <li>Used the access token to fetch the list of users who liked or reposted the Weibo post.</li>
+      <li>Implemented pagination query to fetch all users.</li>
+    </ul>
+  </li>
+  <li>Created a frontend interface using HTML and CSS to allow users to input the Weibo post URL and draw users.</li>
+  <li>Deployed the tool on a cloud service to make it accessible online.</li>
+  <li>Configured the SSL certificate to ensure secure communication between the client and the server.</li>
+</ul>
+
+<p class="text-center" style="color:DarkGrey">
+---
+</p>
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Lan Xu</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:lanxu2022@163.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/PuppyGummy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/lanxu2000"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>
